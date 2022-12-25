@@ -37,7 +37,6 @@ public class GradeAverage{
         double finalAverage = gradesAverage/numSubs;
         System.out.println("\nAverage: " + finalAverage);
 
-
         if (finalAverage > 100) System.out.println("Remarks: Invalid Grade");
         else if (finalAverage >= 98 && finalAverage <= 100) System.out.println("Remarks: With Highest Honors");
         else if (finalAverage >= 95 && finalAverage < 98) System.out.println("Remarks: With High Honors");
